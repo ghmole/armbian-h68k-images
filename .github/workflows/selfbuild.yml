@@ -31,6 +31,6 @@ jobs:
     needs: prepare_release
     strategy:
       matrix:
-        BOARD: [hinlink-h66k, hinlink-h68k]
+        BOARD: [inlink-h68k]
         DISTRO: [armbian]
         FLAVOR: [ubuntu, cli]
