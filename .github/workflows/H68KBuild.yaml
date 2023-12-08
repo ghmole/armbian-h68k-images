@@ -1,4 +1,4 @@
-name: Build
+name: H68KBuild
 on:
   push:
     branches:
